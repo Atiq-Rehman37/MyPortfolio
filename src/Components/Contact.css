@@ -1,0 +1,38 @@
+/* Set the page background color */
+body {
+  font-family: "Segoe UI", sans-serif;
+}
+
+/* Container Styling */
+.contact-container {
+  /* background-color: #112e3f; */
+  border-radius: 15px;
+  padding: 40px;
+  color: white;
+}
+/* Input & Textarea Styling */
+.custom-input {
+  background-color: transparent;
+  border: 1px solid #3e5a6d;
+  color: white;
+  box-shadow: none;
+}
+
+.custom-input::placeholder {
+  color: #8fa6b8;
+}
+
+.custom-input:focus {
+  background-color: transparent;
+  color: white;
+  border-color: #66afe9;
+  outline: none;
+  box-shadow: none;
+}
+
+/* Contact details */
+.contact-details i {
+  font-size: 1.2rem;
+  margin-right: 10px;
+  color: #8fa6b8;
+}
