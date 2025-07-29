@@ -1,9 +1,10 @@
 import React from "react";
-import Contactsection from "../Components/Contactsection";
+import ContactCard from "../Components/ContactCard";
+
 const Contact = () => {
   return (
     <div>
-      <Contactsection></Contactsection>
+      <ContactCard></ContactCard>
     </div>
   );
 };

@@ -1,0 +1,29 @@
+body.menu-open {
+  overflow: hidden;
+}
+
+.overlay-menu {
+  z-index: 999;
+}
+@media (max-width: 991.98px) {
+  .overlay-menu {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    background-color: rgba(14, 21, 58, 0.7);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-radius: 0 0 10px 10px;
+    opacity: 0;
+    transform: translateY(-10px);
+    visibility: hidden;
+    transition: all 0.3s ease;
+  }
+
+  .navbar-collapse.show.overlay-menu {
+    opacity: 1;
+    transform: translateY(0);
+    visibility: visible;
+  }
+}

@@ -1,6 +1,6 @@
 import React from "react";
 import ProjectCards from "./Projectcards";
-import p1img from "../assets/webproject.jpg";
+import { Link } from "react-router-dom";
 
 const ProjectSection = () => {
   return (
@@ -14,43 +14,30 @@ const ProjectSection = () => {
         </div>
         <div className="row">
           <ProjectCards
-            title="Google Health Platform"
+            title="Luxons Ecomerce Store"
             type="Web Application"
-            image={p1img}
+            image={"project1.png"}
           />
           <ProjectCards
-            title="Google Health Platform"
+            title="German Gateway Acadmy"
             type="Web Application"
-            image={p1img}
+            image={"Project2.jpg"}
           />
           <ProjectCards
-            title="Google Health Platform"
+            title="Weather App"
             type="Web Application"
-            image={p1img}
-          />
-          <ProjectCards
-            title="Google Health Platform"
-            type="Web Application"
-            image={p1img}
-          />
-          <ProjectCards
-            title="Google Health Platform"
-            type="Web Application"
-            image={p1img}
-          />
-          <ProjectCards
-            title="Google Health Platform"
-            type="Web Application"
-            image={p1img}
+            image={"project3.PNG"}
           />
         </div>
         <div className="container d-flex justify-content-center mt-5">
-          <button
-            className="btn text-white fs-5 fw-600 px-3 py-2"
-            style={{ backgroundColor: "#6366f1" }}
-          >
-            More Projects
-          </button>
+          <Link to="/projects">
+            <button
+              className="btn text-white fs-5 fw-600 px-3 py-2"
+              style={{ backgroundColor: "#6366f1" }}
+            >
+              More Projects
+            </button>
+          </Link>
         </div>
       </div>
     </section>
