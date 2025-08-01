@@ -6,6 +6,11 @@
   animation: float 3s ease-in-out infinite;
   max-width: 80%;
 }
+@media (max-width: 767px) {
+  .hero-img {
+    margin-top: 20px;
+  }
+}
 
 @keyframes float {
   0% {
