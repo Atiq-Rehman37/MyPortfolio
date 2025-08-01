@@ -39,7 +39,9 @@ const ContactCard = () => {
     <div className="container my-5">
       <div className="row">
         <div className="container text-white pb-5">
-          <h1 className="text-center fw-semibold">Get In Touch</h1>
+          <h1 className="text-center fw-semibold">
+            Get <span className="highlighted-name">In Touch</span>
+          </h1>
         </div>
       </div>
       <div className="row g-4">

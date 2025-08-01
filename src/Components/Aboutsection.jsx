@@ -17,7 +17,7 @@ const Aboutsection = () => {
 
         {/* Text Section */}
         <div className="col-md-9">
-          <h2 className="mb-3">Frontend Web Developer</h2>
+          <h2 className="mb-3 highlighted-name">Frontend Web Developer</h2>
           <p>
             I’m a passionate Frontend Web Developer skilled in building
             responsive, modern, and accessible web interfaces. <br></br> I focus

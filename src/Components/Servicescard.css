@@ -11,3 +11,6 @@
 .Scard:hover {
   transform: translateY(-5px);
 }
+.justify {
+  text-align: justify;
+}

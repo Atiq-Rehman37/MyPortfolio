@@ -6,6 +6,7 @@ const About = () => {
   return (
     <div>
       <Aboutsection></Aboutsection>
+      <hr />
       <TechStack></TechStack>
       <Stats></Stats>
     </div>

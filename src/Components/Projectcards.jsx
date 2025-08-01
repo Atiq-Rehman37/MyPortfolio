@@ -4,6 +4,9 @@ const ProjectCards = ({ title, type, image }) => {
   return (
     <div className="col-sm-12 col-md-6 col-lg-4 mb-2 mt-5">
       <div className="card h-100" style={{ backgroundColor: "#1e3851" }}>
+        <div className="card-header text-center text-white">
+          <h5>{type}</h5>
+        </div>
         <img
           src={image}
           className="card-img-top"
@@ -12,7 +15,14 @@ const ProjectCards = ({ title, type, image }) => {
         />
         <div className="card-body text-center">
           <h5 className="card-title text-white">{title}</h5>
-          <p className="card-text lead text-white">{type}</p>
+        </div>
+        <div className="card-footer d-flex justify-content-center gap-2">
+          <a href="" className="btn btn-primary">
+            Live Demo
+          </a>
+          <a href="" className="btn btn-primary">
+            Github Link
+          </a>
         </div>
       </div>
     </div>

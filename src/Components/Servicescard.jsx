@@ -32,7 +32,8 @@ const Servicescard = () => {
               </div>
               <div className="card-body">
                 <h5 className="card-title fw-bold">{service.title}</h5>
-                <p className="card-text text-white">{service.text}</p>
+                <hr />
+                <p className="card-text text-white justify">{service.text}</p>
               </div>
             </div>
           </div>

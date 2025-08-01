@@ -8,7 +8,9 @@ const Home = () => {
       <Herosection></Herosection>
       <Projectsection></Projectsection>
       <div className="container text-white">
-        <h1 className="text-center fw-semibold mb-3">Our Services</h1>
+        <h1 className="text-center fw-semibold mb-3">
+          Our <span className="highlighted-name">Services</span>
+        </h1>
       </div>
       <Servicescard></Servicescard>
     </div>

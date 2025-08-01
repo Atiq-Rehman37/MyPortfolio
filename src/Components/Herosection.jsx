@@ -1,6 +1,7 @@
 import React from "react";
 import heroimg from "../assets/heroimg.svg";
 import { FaDownload } from "react-icons/fa";
+import "./Herosection.css";
 
 const Herosection = () => {
   return (
@@ -8,9 +9,15 @@ const Herosection = () => {
       <div className="container">
         <div className="row align-items-center">
           <div className="col-md-6 text-center text-md-start mb-4 mb-md-0">
-            <h1 className="fw-bold">HI, I AM ATIQ REHMAN</h1>
+            <h1 className="fw-bold">
+              HI, I AM <span className="highlighted-name">ATIQ REHMAN</span>
+            </h1>
             <p className="lead">A Frontend Developer & Design Enthusiast !</p>
-            <a href="/cv.pdf" className="btn btn-light mt-3" target="_blank">
+            <a
+              href="/cv.pdf"
+              className="btn btn-primary mt-3 py-2 px-3"
+              target="_blank"
+            >
               <span className="fs-5 me-3">
                 <FaDownload />
               </span>

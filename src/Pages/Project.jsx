@@ -5,7 +5,9 @@ const Project = () => {
       <section className="py-5">
         <div className="container">
           <div className="container text-white">
-            <h1 className="text-center fw-semibold mb-3">All Projects</h1>
+            <h1 className="text-center fw-semibold mb-3">
+              All <span className="highlighted-name">Projects</span>
+            </h1>
             <h4 className="text-center lead mt-3">
               View my all projects and dive into my portfolio.
             </h4>

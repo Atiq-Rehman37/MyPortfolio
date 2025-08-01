@@ -1,9 +1,13 @@
 body.menu-open {
   overflow: hidden;
 }
-
 .overlay-menu {
   z-index: 999;
+}
+.link:hover {
+  transform: translateY(-3px);
+  transition: 0.5s ease-in-out;
+  color: #00d4ff !important;
 }
 @media (max-width: 991.98px) {
   .overlay-menu {

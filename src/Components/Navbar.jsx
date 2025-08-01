@@ -4,7 +4,7 @@ import "./Navbar.css";
 
 const Navbar = () => {
   return (
-    <nav className="navbar navbar-expand-lg navbar-dark bg-transparent position-relative">
+    <nav className="navbar navbar-expand-lg navbar-dark bg-transparent position-relative ">
       <div className="container-fluid d-flex align-items-center">
         {/* Logo */}
         <NavLink
@@ -12,9 +12,7 @@ const Navbar = () => {
           className="navbar-brand d-flex align-items-center gap-1 fs-3 text-white"
         >
           <span className="fw-bold">Atiq</span>
-          <span className="fw-bold" style={{ color: "#6366f1" }}>
-            Rehman
-          </span>
+          <span className="fw-bold highlighted-name">Rehman</span>
         </NavLink>
 
         {/* Toggler */}
@@ -35,24 +33,24 @@ const Navbar = () => {
           className="collapse navbar-collapse justify-content-center overlay-menu"
           id="navbarNav"
         >
-          <ul className="navbar-nav text-start ps-3 ps-lg-0">
+          <ul className="navbar-nav text-start ps-3 ps-lg-0 gap-3">
             <li className="nav-item">
-              <NavLink className="nav-link fs-5 text-white" to="/">
+              <NavLink className="nav-link fs-5 text-white link" to="/">
                 Home
               </NavLink>
             </li>
             <li className="nav-item">
-              <NavLink className="nav-link fs-5 text-white" to="/projects">
+              <NavLink className="nav-link fs-5 text-white link" to="/projects">
                 Projects
               </NavLink>
             </li>
             <li className="nav-item">
-              <NavLink className="nav-link fs-5 text-white" to="/about">
+              <NavLink className="nav-link fs-5 text-white link" to="/about">
                 About Me
               </NavLink>
             </li>
             <li className="nav-item">
-              <NavLink className="nav-link fs-5 text-white" to="/contact">
+              <NavLink className="nav-link fs-5 text-white link" to="/contact">
                 Contact
               </NavLink>
             </li>
@@ -71,11 +69,8 @@ const Navbar = () => {
 
         {/* Hire Me Button - Desktop Only */}
         <div className="d-none d-lg-flex ms-auto">
-          <button
-            className="btn text-white fs-5 fw-semibold px-3"
-            style={{ backgroundColor: "#6366f1" }}
-          >
-            Hire Me
+          <button className="btn  fw-semibold  btn-primary">
+            Let's Connect
           </button>
         </div>
       </div>

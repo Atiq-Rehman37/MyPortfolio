@@ -11,11 +11,11 @@ const Footer = () => {
   return (
     <div>
       <div
-        className="container text-white text-center py-5"
+        className="container text-white text-center py-5 mt-2"
         style={{ borderTop: "4px solid #102d44" }}
       >
         <h1 fw-semibold mb-3>
-          Follow Me
+          Follow <span className="highlighted-name">Me</span>
         </h1>
       </div>
       <div className="container mx-auto d-flex gap-4 d-flex justify-content-center mb-5">
@@ -39,7 +39,7 @@ const Footer = () => {
         </a>
       </div>
       <div className="container text-center text-white mb-2">
-        <h4 className="lead">
+        <h4 className="lead pb-2">
           © 2025 Atiq Rehman. Built with React & Bootstrap 5.
         </h4>
       </div>
