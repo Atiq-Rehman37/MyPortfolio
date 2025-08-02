@@ -1,4 +1,4 @@
-import React from "react";
+import { TypeAnimation } from "react-type-animation";
 import heroimg from "../assets/heroimg.svg";
 import { FaDownload } from "react-icons/fa";
 import "./Herosection.css";
@@ -10,9 +10,24 @@ const Herosection = () => {
         <div className="row align-items-center gy-4 pt-4 pt-md-0">
           {/* Left Column */}
           <div className="col-md-6 text-center text-md-start">
-            <h1 className="fw-bold">
-              HI, I AM <span className="highlighted-name">ATIQ REHMAN</span>
-            </h1>
+            <h2 className="fw-bold">
+              HI, I AM{" "}
+              <span className="highlighted-name">
+                <TypeAnimation
+                  sequence={[
+                    "ATIQ REHMAN",
+                    2000,
+                    "UI Designer",
+                    2000,
+                    "React Developer",
+                    2000,
+                  ]}
+                  speed={200}
+                  deletionSpeed={70}
+                  repeat={Infinity}
+                />
+              </span>
+            </h2>
             <p className="lead">A Frontend Developer & Design Enthusiast !</p>
             <a
               href="/cv.pdf"

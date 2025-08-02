@@ -1,8 +1,7 @@
 import React from "react";
-
 const ProjectCards = ({ title, type, image }) => {
   return (
-    <div className="col-sm-12 col-md-6 col-lg-4 mb-2 mt-5">
+    <div className="col-sm-12 col-md-6 col-lg-4 mb-2 mt-5 shadow">
       <div className="card h-100" style={{ backgroundColor: "#1e3851" }}>
         <div className="card-header text-center text-white">
           <h5>{type}</h5>
