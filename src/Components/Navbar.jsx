@@ -4,7 +4,10 @@ import "./Navbar.css";
 
 const Navbar = () => {
   return (
-    <nav className="navbar navbar-expand-lg navbar-dark bg-transparent position-relative ">
+    <nav
+      className="navbar navbar-expand-lg navbar-dark sticky-top "
+      style={{ backgroundColor: " #0d2439" }}
+    >
       <div className="container-fluid d-flex align-items-center">
         {/* Logo */}
         <NavLink
@@ -57,11 +60,8 @@ const Navbar = () => {
 
             {/* Hire Me for mobile view */}
             <li className="nav-item d-lg-none mt-3">
-              <button
-                className="btn text-white fs-5 fw-semibold px-3"
-                style={{ backgroundColor: "#6366f1" }}
-              >
-                Hire Me
+              <button className="btn text-white fs-5 fw-semibold px-3 btn-primary">
+                Let's Connect
               </button>
             </li>
           </ul>

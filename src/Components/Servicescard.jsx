@@ -26,7 +26,7 @@ const Servicescard = () => {
       <div className="row g-4">
         {services.map((service, index) => (
           <div className="col-md-4" key={index}>
-            <div className="card Scard  h-100 text-center p-3 shadow-sm border-0">
+            <div className="card Scard  h-100 text-center p-3 shadow-sm border-start border-3">
               <div className="d-flex justify-content-center align-items-center rounded-circle mx-auto mb-3">
                 {service.icon}
               </div>

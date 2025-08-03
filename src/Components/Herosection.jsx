@@ -28,7 +28,10 @@ const Herosection = () => {
                 />
               </span>
             </h2>
-            <p className="lead">A Frontend Developer & Design Enthusiast !</p>
+            <p className="lead pt-2">
+              Crafting beautiful interfaces as a <b>Frontend Developer</b> &
+              exploring creativity as a <b>Design Enthusiast</b>!
+            </p>
             <a
               href="/cv.pdf"
               className="btn btn-primary mt-3 py-2 px-3"
