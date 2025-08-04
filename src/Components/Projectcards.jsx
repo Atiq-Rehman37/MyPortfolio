@@ -1,5 +1,5 @@
 import React from "react";
-const ProjectCards = ({ title, type, image }) => {
+const ProjectCards = ({ title, type, image, Link, Github }) => {
   return (
     <div className="col-sm-12 col-md-6 col-lg-4 mb-2 mt-5 shadow">
       <div
@@ -19,10 +19,10 @@ const ProjectCards = ({ title, type, image }) => {
           <h5 className="card-title text-white">{title}</h5>
         </div>
         <div className="card-footer d-flex justify-content-center gap-2">
-          <a href="" className="btn btn-primary">
+          <a href={Link} target="blank" className="btn btn-primary">
             Live Demo
           </a>
-          <a href="" className="btn btn-primary">
+          <a href={Github} target="blank" className="btn btn-primary">
             Github Link
           </a>
         </div>

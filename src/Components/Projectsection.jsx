@@ -16,20 +16,26 @@ const ProjectSection = () => {
         </div>
         <div className="row">
           <ProjectCards
-            title="Luxons Ecomerce Store"
+            title="HELGRAY Ecomerce Store"
             type="Web Application"
             image={"project1.png"}
+            Link="https://prestigetime.netlify.app/"
+            Github="https://github.com/Atiq-Rehman37/EcomerceStore"
           />
 
           <ProjectCards
             title="Weather App"
             type="Web Application"
             image={"project3.PNG"}
+            Link="https://github.com/Atiq-Rehman37/WeatherApp"
+            Github="https://github.com/Atiq-Rehman37/WeatherApp"
           />
           <ProjectCards
             title="Spotify Music"
             type="Web Application"
             image={"project4.png"}
+            Link="https://github.com/Atiq-Rehman37/Spotify-Music"
+            Github="https://github.com/Atiq-Rehman37/Spotify-Music"
           />
         </div>
         <div className="container d-flex justify-content-center mt-5">

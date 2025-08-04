@@ -14,34 +14,39 @@ const Project = () => {
           </div>
           <div className="row">
             <ProjectCards
-              title="Luxons Ecomerce Store"
+              title="HELGRAY Ecomerce Store"
               type="Web Application"
               image={"project1.png"}
-            />
-            <ProjectCards
-              title="German Gateway Acadmy"
-              type="Web Application"
-              image={"Project2.jpg"}
+              Link="https://prestigetime.netlify.app/"
+              Github="https://github.com/Atiq-Rehman37/EcomerceStore"
             />
             <ProjectCards
               title="Weather App"
               type="Web Application"
               image={"project3.PNG"}
+              Link="https://github.com/Atiq-Rehman37/WeatherApp"
+              Github="https://github.com/Atiq-Rehman37/WeatherApp"
             />
             <ProjectCards
               title="Spotify Music Clone"
               type="Web Application"
               image={"project4.png"}
+              Link="https://github.com/Atiq-Rehman37/Spotify-Music"
+              Github="https://github.com/Atiq-Rehman37/Spotify-Music"
             />
             <ProjectCards
               title="Netflix Clone"
               type="Web Application"
               image={"project5.png"}
+              Link="https://github.com/Atiq-Rehman37/Spotify-Music"
+              Github="https://github.com/Atiq-Rehman37/Spotify-Music"
             />
             <ProjectCards
               title="ManiStuff Ecomerce Store"
               type="Web Application"
               image={"project6.PNG"}
+              Link="https://github.com/Atiq-Rehman37/Project-1"
+              Github="https://github.com/Atiq-Rehman37/Project-1"
             />
           </div>
         </div>
