@@ -53,7 +53,7 @@ const ContactCard = () => {
               rel="noopener noreferrer"
               className="text-decoration-none"
             >
-              <div className="contact-card p-4 rounded-4 text-center text-white py-5">
+              <div className="contact-card p-4 rounded-4 text-center text-white py-5 border-start border-3">
                 <div className="icon-wrapper mb-3">{contact.icon}</div>
                 <h5 className="fw-bold text-white">{contact.title}</h5>
                 <p className="mb-0">{contact.subtitle}</p>
