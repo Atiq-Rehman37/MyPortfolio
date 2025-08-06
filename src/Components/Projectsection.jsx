@@ -24,11 +24,11 @@ const ProjectSection = () => {
           />
 
           <ProjectCards
-            title="Weather App"
+            title="Health First Template"
             type="Web Application"
-            image={"project3.PNG"}
-            Link="https://github.com/Atiq-Rehman37/WeatherApp"
-            Github="https://github.com/Atiq-Rehman37/WeatherApp"
+            image={"project2.PNG"}
+            Link="https://healthfirstisb.netlify.app/"
+            Github="https://github.com/Atiq-Rehman37/Medical-Website"
           />
           <ProjectCards
             title="Spotify Music"
